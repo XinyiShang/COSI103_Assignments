@@ -1,0 +1,25 @@
+<h1>Consulting History</h1>
+
+<% if (consults.length === 0) { %>
+  <p>No consulting entries found.</p>
+<% } else { %>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Mood</th>
+        <th scope="col">Special Things</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% consults.forEach((consult) => { %>
+        <tr>
+          <td><%= consult.createdAt.toDateString() %></td>
+          <td><%= consult.mood %></td>
+          <td><%= consult.specialThings %></td>
+          <td><%= consult.response %></td>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>
+<% } %>

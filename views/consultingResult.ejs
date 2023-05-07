@@ -1,0 +1,9 @@
+<div id="suggestions">
+  <% const suggestionParagraphs = consulting.response.split("\n") %>
+  <% suggestionParagraphs.forEach((paragraph) => { %>
+    <p><%= paragraph %></p>
+  <% }); %>
+</div>
+
+<a href="/consulting/history" class="btn btn-primary">View Consulting History</a>
+
