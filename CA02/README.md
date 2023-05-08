@@ -1,4 +1,4 @@
-COSI103_Assignments CA02
+# COSI103_Assignments CA02
 
 Create an creative express App with chatGPT
 
