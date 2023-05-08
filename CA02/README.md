@@ -1,13 +1,15 @@
-# COSI103_Assignments CA02
+## COSI103_Assignments CA02
 
 Create an creative express App with chatGPT
 
-Running Instruction:
+In this assignment, I developed an consulting app which uses chatGPT api to provide response based on users' input. 
+
+### Running Instruction:
 
 npm start
 
-Set Up Database:
+#### Set Up Database:
 $Env:MONGODB_URI = "..."
 
-Set Up the API key:
+#### Set Up the API key:
  $Env:API_KEY = "..."
